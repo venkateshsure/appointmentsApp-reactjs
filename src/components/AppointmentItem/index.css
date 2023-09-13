@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-con {
+  list-style-type: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.starred-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-starred-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.star-but {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.star-image {
+  width: 30px;
+  height: 30px;
+}

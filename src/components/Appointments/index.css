@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.appointments {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#fbc7d4, #9897f0);
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  height: 100vh;
+}
+
+.appointments-con {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 90%;
+}
+
+.inner-appointments {
+  background-color: #ffffff;
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.add-appointment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.head {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.inner-add-appointment {
+  width: 50%;
+}
+
+.ul-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+
+.stared-text-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.head-con-but {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-con-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.user-input-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.cursor {
+  cursor: pointer;
+  outline: none;
+}
+
+.but {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.but-starred {
+  border: 1px solid #8b5cf6;
+  border-radius: 5px;
+  background: transparent;
+  align-self: center;
+  cursor: pointer;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+.horizontal {
+  width: 100%;
+  color: #b5b7c4;
+}
+
+.heading-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
