@@ -76,7 +76,7 @@ class Appointments extends Component {
         <div className="appointments-con">
           <div className="inner-appointments">
             <div className="add-appointment">
-              <h1 className="head">Add Appointments</h1>
+              <h1 className="head">Add Appointment</h1>
               <form
                 onSubmit={this.addAppointments}
                 className="inner-add-appointment"
